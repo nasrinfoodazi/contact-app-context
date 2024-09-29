@@ -1,4 +1,4 @@
-import styles from './Contactitem.module.css'
+import styles from './ContactItem.module.css'
 
 function ContactItems({ data, onEdit, onDelete }) {
   return (

@@ -60,7 +60,7 @@ function ContactForm() {
               type={"text"}
               name={"search"}
               placeholder={"search"}
-              value={search}
+              value={search || ""}
               className={styles.search}
               onChange={(e) => setSaerch(e.target.value)}
             />
